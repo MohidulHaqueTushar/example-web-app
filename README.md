@@ -1,4 +1,4 @@
-# Simple Web Application
+# Example Web Application
 
 This is a simple web application using Python Flaskand MySQL database. 
 This is used in the demonstration of the development of Ansible Playbooks.
