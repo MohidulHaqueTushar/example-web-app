@@ -9,4 +9,4 @@ docker pull haque313/my-simple-web-app
 ```
 
 ## Build
-you can also build the image again by using the Dockeefile and app.py from this github repository.
+you can also build the image again by using the [Dockerfile](https://github.com/MohidulHaqueTushar/example-web-app/blob/main/Dockerfile.txt) and [app.py](https://github.com/MohidulHaqueTushar/example-web-app/blob/main/app.py) from this github repository.
