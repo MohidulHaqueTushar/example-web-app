@@ -5,7 +5,7 @@ A simple Flask web application, containerized using Docker for easy deployment. 
 ## Using Docker
 You can run the application directly from the docker hub by using the following command:
 ```
-docker pull haque313/example-web-app
+docker pull haque313/example-web-app:latest
 ```
 
 You can run it by using the following command, **ONLY** for the docker-desktop:
