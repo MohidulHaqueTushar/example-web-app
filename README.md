@@ -8,7 +8,7 @@ You can run the application directly from the docker hub by using the following 
 docker pull haque313/example-web-app
 ```
 
-You can run it by using the following command, for the docker-desktop:
+You can run it by using the following command, **ONLY** for the docker-desktop:
 
 ```
 docker run -d -p 8000:8000 haque313/my-simple-web-app
