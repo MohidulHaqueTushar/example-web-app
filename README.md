@@ -11,7 +11,7 @@ docker pull haque313/example-web-app:latest
 You can run it by using the following command, **ONLY** for the docker-desktop:
 
 ```
-docker run -d -p 8000:8000 haque313/my-simple-web-app
+docker run -d -p 8000:8000 haque313/example-web-app:latest
 ```
 
 ## Access the App
