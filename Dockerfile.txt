@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.04
 
 # Set non-interactive to avoid prompts
 ENV DEBIAN_FRONTEND=noninteractive
@@ -16,7 +16,7 @@ COPY app.py /opt/app.py
 WORKDIR /opt
 
 # Expose Flask's default port
-EXPOSE 5000
+EXPOSE 8000
 
 # Set the entry point for Flask
-CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
